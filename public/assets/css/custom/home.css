@@ -1,0 +1,79 @@
+/* css khusus home page */
+
+/* testing tools */
+.tesbor {
+    border: 1px solid black;
+}
+
+.rounded-lg {
+    border-radius: 20px;
+}
+
+/* primary */
+.padding-primary {
+    padding: 0 18rem 0 18rem;
+}
+
+/* area hot promo diskon terbaik */
+
+/* area hot promo diskon terbaik */
+
+.owl-nav {
+    position: absolute;
+    /* background-color: green; */
+    top: 40%;
+    right: 0;
+    z-index: 1;
+}
+
+.owl-home-slider .owl-nav button.owl-prev {
+    display: none;
+}
+
+.owl-home-slider .owl-nav button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #b1b1b1;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50% !important;
+    padding: 5px;
+    background-color: white !important;
+}
+/* card home end */
+
+/* ========================== RESPONSIVE =========================
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    ...;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .slick-card-home div .item .card {
+        width: 10rem;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...;
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .slick-card-home div .item .card {
+        width: 10rem;
+    }
+}
+
+// XXX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1800px) {
+    .slick-card-home div .item .card {
+        width: 10rem;
+    }
+} */

@@ -1,0 +1,442 @@
+[16-May-2024 09:58:34 UTC] PHP Warning:  require(/home/genoneof/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/genoneof/public_html/index.php on line 34
+[16-May-2024 09:58:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/genoneof/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/genoneof/public_html/index.php on line 34
+[20-May-2024 03:35:05 UTC] PHP Fatal error:  Cannot redeclare App\Models\Promo::$dates in /home/genoneof/genone/app/Models/Promo.php on line 10
+[20-May-2024 03:35:12 UTC] PHP Fatal error:  Cannot redeclare App\Models\Promo::$dates in /home/genoneof/genone/app/Models/Promo.php on line 10
+[06-Jun-2024 07:03:00 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:00 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:03 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:03 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:03 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:06 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:06 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:07 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:07 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:14 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:14 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:14 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:38 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:38 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:46 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:46 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:46 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:48 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:48 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:48 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:51 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:51 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:53 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:53 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:53 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:03:59 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:59 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:03:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:05:35 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:05:35 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:05:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:05:49 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:05:49 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:05:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:14:14 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:14:14 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:14:14 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
+[06-Jun-2024 07:14:19 UTC] PHP Warning:  include(/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:14:19 UTC] PHP Warning:  include(): Failed opening '/home/genoneof/genone/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/genoneof/genone/vendor/composer/ClassLoader.php on line 576
+[06-Jun-2024 07:14:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#8 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#9 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#1 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#2 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve()
+#3 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
+#5 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
+#6 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
+#7 /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
+#8 /home/genoneof/public_html/index.php(53): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/genoneof/genone/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
