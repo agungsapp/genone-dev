@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\AdminBankController;
 use App\Http\Controllers\Admin\AdminPembayaranController;
 use App\Http\Controllers\Admin\Api\AdminApiRefundController;
+use App\Http\Controllers\Admin\KotaController;
 use App\Http\Controllers\Admin\MotorController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -33,6 +34,7 @@ Route::name('api.')->group(function () {
 
 // utils ajax
 Route::post('get-motor', [MotorController::class, 'getMotorById']);
+Route::get('semua-kota', [KotaController::class, 'semuaKota']);
 
 
 // belum terupdate untuk info metode pembayaranya | done

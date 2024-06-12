@@ -1189,3 +1189,22 @@ section .simulasi-container .simulasi-wrapper .card {
     border-radius: 20px;
     border: 2px dashed #a4a4a4;
 }
+
+.modal-hidden {
+    display: none; /* Sembunyikan modal secara default */
+}
+
+/* Nonaktifkan scroll pada body */
+.no-scroll {
+    overflow: hidden;
+}
+
+/* Pastikan konten dalam ul bisa di-scroll */
+#modalDaftarLokasi .content-area {
+    overflow-y: auto;
+    max-height: 450px; /* Sesuaikan dengan tinggi card yang diinginkan */
+}
+
+#modalDaftarLokasi .card {
+    height: 600px; /* Pastikan tinggi card sesuai dengan yang diinginkan */
+}

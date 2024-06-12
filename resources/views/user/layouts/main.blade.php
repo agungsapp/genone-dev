@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T3463RC6');</script>
+<script>
+		(function(w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({
+						'gtm.start': new Date().getTime(),
+						event: 'gtm.js'
+				});
+				var f = d.getElementsByTagName(s)[0],
+						j = d.createElement(s),
+						dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src =
+						'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-T3463RC6');
+</script>
 <!-- End Google Tag Manager -->
+
 <head>
 		<title>Gen One Official</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -32,6 +44,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<link
 				href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 				rel="stylesheet" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 		<!-- botman -->
 		<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css"> -->
 		<!--icon css-->
@@ -130,15 +146,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body class="bg-light" style="max-width: 2000px;">
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3463RC6"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3463RC6" height="0" width="0"
+						style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 		@include('user.layouts.partials.header')
 
 		@yield('content')
 
+		@include('user.layouts.partials._modal_lokasi')
+		{{-- <x-modal-lokasi></x-modal-lokasi> --}}
+
 		@include('user.layouts.partials.footer')
+
+
+
+
+
 
 		<!-- video modal start -->
 		<div class="modal modal-v-sec fade" id="v-section1" role="dialog">
@@ -150,15 +174,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 										allowfullscreen></iframe> --}}
 
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/8W9OlymohU0?si=HyFuG2ioOZjfyddH"
+								{{-- <iframe width="560" height="315" src="https://www.youtube.com/embed/8W9OlymohU0?si=HyFuG2ioOZjfyddH"
 										title="YouTube video player" frameborder="0"
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-										allowfullscreen></iframe>
+										allowfullscreen></iframe> --}}
 						</div>
 				</div>
 		</div>
 		<!-- video modal start -->
- 
+
 
 		<!-- add to  setting bar  end-->
 		<!-- latest jquery-->
@@ -208,10 +232,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 		<script>
+				$('.select2').select2()
+
 				const isDev = "{{ env('JS_LOG') }}" === 'development';
 
 				isDev && console.log('Mode development aktif');
-
 
 				isDev && console.log("aman running")
 				var lokasiNow = 1;
@@ -366,6 +391,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</script>
 
 		@stack('script')
+
 
 
 		{{-- <script src="{{ asset('assets/js/nohack.js') }}"></script> --}}

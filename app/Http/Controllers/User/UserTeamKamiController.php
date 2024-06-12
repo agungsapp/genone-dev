@@ -4,6 +4,7 @@ namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
 use App\Models\JabatanModel;
+use App\Models\Sales;
 use Illuminate\Http\Request;
 
 class UserTeamKamiController extends Controller
@@ -56,7 +57,8 @@ class UserTeamKamiController extends Controller
      */
     public function show($id)
     {
-        //
+        $sales = Sales::find($id);
+        return view('user.team_kami.show', compact('sales'));
     }
 
     /**

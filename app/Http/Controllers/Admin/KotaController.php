@@ -142,4 +142,15 @@ class KotaController extends Controller
       return redirect()->back();
     }
   }
+
+  public function semuaKota()
+  {
+    try {
+      $lokasi = Kota::all();
+      return response()->json(['lokasi' => $lokasi], 200);
+    } catch (\Throwable $th) {
+      //throw $th;
+      return response()->json(['error' => $th->getMessage()], 500);
+    }
+  }
 }

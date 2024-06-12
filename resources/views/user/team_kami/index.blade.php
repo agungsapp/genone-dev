@@ -44,7 +44,7 @@
 																@if ($jabatan->sales->count() > 0)
 																		@foreach ($jabatan->sales as $sales)
 																				<div>
-																						<div class="team-box">
+																						<div data-url="{{ route('team-kami.show', $sales->id) }}" class="team-box">
 																								<div class="img-wrraper">
 																										<img src="{{ Storage::url('sales/' . $sales->path_image) }}" alt="team"
 																												class="img-fluid img-team">
@@ -83,10 +83,21 @@
 @push('css')
 		<style>
 				.img-team {
-						width: 736px;
+						width: 100%;
 						height: 200px;
-						object-fit: cover;
-						object-position: top center;
+						object-fit: contain
 				}
 		</style>
+@endpush
+
+
+@push('script')
+		<script>
+				$(document).ready(function() {
+						$('.team-box').click(function() {
+								const detailUrl = $(this).data('url');
+								window.location.href = detailUrl;
+						});
+				});
+		</script>
 @endpush
